@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/process" method="post">
+    <div>
+        <label>First Name:*</label>
+        <input type="text" name="First Name">
+    </div>
+    <br>
+    <div>
+        <label>Last Name:*</label>
+        <input type="text" name="Last Name">
+    </div>
+    <br>
+    <div>
+        <label>Email Address:*</label>
+        <input type="email" name="Email Address">
+    </div>
+    <br>
+    <div>
+        <label>Password:*</label>
+        <input type="text" name="Password">
+    </div>
+    <br>
+    <div>
+        <label>Confirm Password:*</label>
+        <input type="text" name="Confirm Password">
+    </div>
+    <br>
+    <div>
+        <label>Birthday</label>
+        <input type="date" name="Birthday">
+    </div>
+    <br>
+    <div>
+        Gender Identity:
+        </div>
+        <div>
+        <label>Male</label>
+        <input type="radio" name="Male" value="Male" id="Male">
+        <label>Female</label>
+        <input type="radio" name="Female" value="Female" id="Female">
+        <label>Non-binary</label>
+        <input type="radio" name="Non-binary" value="Non-binary" id="Non-binary">
+        <label>I prefer not to answer</label>
+        <input type="radio" name="I prefer not to answer" value="I prefer not to answer" id="I prefer not to answer">
+    </div>
+    <br>
+    <div>
+        A short description about myself:
+        </div>
+        <div>
+        <textarea name="comment" cols="40" rows="5"></textarea>
+    </div>
+    <br>
+    <div>
+        Favorite Language:
+        <select name="Favorite Language:">
+            <option value="JavaScript">JavaScript</option>
+            <option value="c++">c++</option>
+            <option value="Html">Html</option>
+            </select>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="accepte" id="accepte">
+        <label for="accepte">Yes, I would like to recive periodic email updates</label>
+        
+    </div> 
+    <br>
+    <input type="submit" value="Crate Acount">
+    </form>
+    <br>
+    <p>*Indicate a required field</p>
+
+
+</body>
+</html>
