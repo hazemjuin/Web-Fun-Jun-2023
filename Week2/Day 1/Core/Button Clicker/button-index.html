@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <nav>
+                <h1>Dojonary</h1> 
+                <input type="Search" name="Search" id="Search">
+                <button onclick="clicked(this)">Login</button>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="top">
+                <h2>ninja</h2>
+                <p>noun</p>
+                <p>plural ninjas</p>
+                <div class="p1">
+                    <p>A practitioner skiled in the <span>Japanese</span> art of <span>ninjutsu</span></p>
+                </div>
+                <div class="btn" onclick="displayName('Ninja was liked')">
+                <button id="likeButton" onclick="likeClicked()">13 likes</button>  
+                </div>  
+            </div>
+            <div class="bottum">
+                <h2>ninja</h2>
+                <p>noun</p>
+                <p>plural ninjas</p>
+                <div class="p2">
+                    <p>A <span>programmer</span> who breaks down problems with <span>zen</span>-like foucs </p>
+                    <br>
+                    <div class="btn" onclick="displayName('Ninja was liked')">
+                    <button id="likeButton" onclick="likeClicked()">37 likes</button>
+                    </div>
+                </div>
+            </div>
+            <div class="side">
+                <h2>Dojonary is defined bt you</h2>
+                <br >
+                <div>
+                <button id="myButton">Add Definition</button>
+                </div>
+                </div>
+        </div>
+    </div>
+    <script src="button.js"></script>
+</body>
+</html>
