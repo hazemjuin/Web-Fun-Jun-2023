@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div class="col-l">
+            <video src="assets/pexels-thibaud-simon-1414757-3840x2160-25fps.mp4" autoplay height="400" muted loop onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"></video>
+            <div class="row">
+                <div class="start">
+                    <h1>Example Video Title</h1>
+                    <h3>1.3K Views | June, 18, 2021</h3>
+                    <div class="user">
+                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
+                        <span class="user-name">Example User Name</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+        </div>
+        <div class="col-r">
+            <h3 class="sub-header">Up Next</h3>
+            <div class="video-small">
+                <video src="assets/pexels-mariam-antadze-5968893-2160x3840-60fps.mp4" autoplay height="200" width="200" muted loop onmouseover="playVideo(this)" onmouseout="playVideo(this)"></video>
+                <span class="video-title">Not a Rick Roll</span>
+            </div>
+            <div class="video-small">
+                <video src="assets/pexels-amar-preciado-15645748-720x1280-30fps.mp4" autoplay height="200" width="200" muted loop onmouseover="playVideo(this)" onmouseout="playVideo(this)"></video>                <span class="video-title">10 Facts About ET's Cat!</span>
+            </div>
+            <div class="video-small">
+                <video src="assets/pexels-cottonbro-studio-7792629-2160x4096-25fps.mp4" autoplay height="200" width="200" muted loop onmouseover="playVideo(this)" onmouseout="playVideo(this)"></video>
+                <span class="video-title">5 Cosplay Tips</span>
+            </div>
+            <div class="video-small">
+                <video src="assets/pexels-pressmaster-3195811-3840x2160-25fps.mp4" autoplay height="200" width="200" muted loop onmouseover="playVideo(this)" onmouseout="playVideo(this)"></video>
+                <span class="video-title">Boy Battles Dinobot in Thunderdome</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
